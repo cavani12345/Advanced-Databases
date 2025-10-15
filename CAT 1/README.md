@@ -20,30 +20,6 @@ This system maintains structured data for six key entities:
 - **Maintenance** — vehicle servicing records and costs.  
 - **Payment** — shipment-specific financial transactions.
 
-
-## Core Business Operations
-
-### 1. Vehicle Management
-Manage fleet records including model, plate number, type, capacity, and operational status. Vehicles are uniquely identified and linked to multiple shipments and maintenance records. Prevents assignment of vehicles under maintenance to new shipments.
-
-### 2. Driver Management
-Register and maintain driver details including full name, license number, contact information, and experience. Each driver can handle multiple shipments, ensuring accountability and performance tracking.
-
-### 3. Route Management
-Define and manage transportation routes with start and end locations, distances, and types. Routes serve as a key link in shipment planning and route optimization.
-
-### 4. Shipment Management
-Coordinate the delivery of goods by linking each shipment to a specific vehicle, driver, and route. Monitors shipment status transitions (Pending → In Transit → Delivered) and enforces that each shipment can have exactly one payment record.
-
-### 5. Maintenance Management
-Record maintenance events for vehicles, including service date, cost, and description. Prevents scheduling shipments for vehicles currently under maintenance and supports cost tracking for reporting.
-
-### 6. Payment Management
-Record and track payments associated with shipments. Each payment is linked to a single shipment, ensuring financial integrity and preventing duplication. Supports tracking of amount, method, and payment date.
-
-### 7. Reporting and Analytics
-Generate summaries and performance reports, including vehicle utilization, driver efficiency, maintenance costs, and payment collections. Provides insights into operational trends for data-driven decision-making.
-
 ## Project Structure
 
 The project follows a clear structure under the **`CAT1`** base folder to organize database scripts and related resources:
