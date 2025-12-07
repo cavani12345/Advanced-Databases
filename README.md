@@ -24,7 +24,7 @@ This system maintains structured data for six key entities:
 
 
 ### Entity Relationship Diagram and Database Relationships Description
-![image](./CAT 1/images/logistic-fleets-ERD.png)
+![image](./CAT%201/images/logistic-fleets-ERD.png)
 
 ## Database Relationships
 
@@ -147,7 +147,7 @@ VALUES
 ('Volvo FH16', 'RWA-123A', 'Truck', 'Active', 18000),
 ('Isuzu NPR', 'RWA-321D', 'Truck', 'Active', 12000);
 ```
-![Fetch from vehicles Screenshot](./CAT1/images/fetch_vehicles.png)
+![Fetch from vehicles Screenshot](./CAT%201/images/fetch_vehicles.png)
 
 
 
@@ -160,7 +160,7 @@ VALUES
 ('David Indekwe', 'RW987654', '+250788987654', 3),
 ('William Mugangwa', 'RW987959', '+250788987654', 3);
 ```
-![Fetch from driver Screenshot](./CAT1/images/fetch_drivers.png)
+![Fetch from driver Screenshot](./CAT%201/images/fetch_drivers.png)
 
 ## Task 4:Retrieve total revenue per vehicle type
 to come up with the results, firstly, need to insert data into the following tables routes,shipments, and payments. After inser the data into the mentioned table, below is the query screeshot and it results.
@@ -174,7 +174,7 @@ JOIN vehicles ve ON sh.vehicle_id = ve.vehicle_id
 GROUP BY ve.type
 ORDER BY ve.type DESC;
 ```
-![Retrieve total revenue per vehicletype](./CAT1/images/revenue_vehicle_type1.png)
+![Retrieve total revenue per vehicletype](./CAT%201/images/revenue_vehicle_type1.png)
 
 
 ## Task 5: Update maintenance cost and observe vehicle downtime.
@@ -210,7 +210,7 @@ ORDER BY total_completed_shipments DESC  -- Sort drivers by total completed ship
 LIMIT 1;                             -- Return only the top-performing (most efficient) driver
 ```
 Below is the result of the query
-![alt text](./CAT1/images/image.png)
+![alt text](./CAT%201/images/image.png)
 
 ## Task 7: Create a view summarizing cost and income balance per vehicle.
 A view is needed for this query because it encapsulates complex joins and aggregations into a reusable, consistent, and easy-to-query virtual table for reporting vehicle financial performance
@@ -239,7 +239,7 @@ GROUP BY 1,2,3;
 ```
 
 Below is the result of the view
-![alt text](./CAT1/images/image-1.png)
+![alt text](../CAT%201/images/image-1.png)
 
 ## Task 8: Implement a trigger that marks vehicles unavailable during maintenance
 ```sql
