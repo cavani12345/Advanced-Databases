@@ -24,7 +24,7 @@ This system maintains structured data for six key entities:
 
 
 ### Entity Relationship Diagram and Database Relationships Description
-![image](./CAT1/images/logistic-fleets-ERD.png)
+![image](./CAT 1/images/logistic-fleets-ERD.png)
 
 ## Database Relationships
 
